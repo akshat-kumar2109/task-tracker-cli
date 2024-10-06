@@ -107,8 +107,7 @@ switch (args[2]) {
     }
 
     addTask(args[3]);
-    console.log("Your task id is:", task.id);
-    console.log("Task added successfully!!");
+    console.log(`Task added successfully (ID: ${task.id})`);
     break;
 
   case "update":
