@@ -1,0 +1,9 @@
+{
+  "name": "task-cli",
+  "type": "module",
+  "version": "1.0.0",
+  "bin": {
+    "task-cli": "./task-cli.js"
+  },
+  "dependencies": {}
+}
