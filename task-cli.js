@@ -6,7 +6,10 @@ import { exec } from "child_process";
 const args = process.argv.slice(2);
 
 // Construct the command to pass to index.js
-const command = `node index.js ${args.join(" ")}`;
+let command = `node index.js`
+args.forEach(arg => {
+  command += ` "${arg}"`
+});
 
 exec(command, (error, stdout, stderr) => {
   if (error) {
