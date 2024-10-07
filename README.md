@@ -1,4 +1,4 @@
-## How to setup this code
+## How to setup this project
 
 1. Make the `task-cli.js` executable
     ```
@@ -33,3 +33,5 @@
     task-cli list todo
     task-cli list in-progress
     ```
+
+#### Ref: https://roadmap.sh/projects/task-tracker
